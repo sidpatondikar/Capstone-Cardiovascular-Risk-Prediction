@@ -1,6 +1,6 @@
 # Capstone-Cardiovascular-Risk-Prediction
 
-Project Summary:
+# Project Summary:
 
 The project aimed to predict the 10-year risk of future coronary heart disease (CHD) in patients using a dataset from an ongoing cardiovascular study in Framingham, Massachusetts. With over 4,000 records and 15 attributes, five classification machine learning models were constructed for this task.
 
