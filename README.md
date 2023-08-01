@@ -1,4 +1,6 @@
-# Capstone-Cardiovascular-Risk-Prediction
+ ![image](https://github.com/sidpatondikar/Capstone-Cardiovascular-Risk-Prediction/assets/83869822/46d95566-7e76-454e-95d5-86ed83b87d53) 
+ # Capstone-Cardiovascular-Risk-Prediction
+
 
 # Project Summary:
 
