@@ -51,7 +51,7 @@ The project aimed to predict the 10-year risk of future coronary heart disease (
   - Very few patients are on blood pressure medications, and the number of risky patients taking BP meds are negligible.
   - Most risky patients do not have diabetes.
 
-- Continuos Features:
+- Continuous Features:
   - Most of the continuos variable columns are positively skewed. We will have to deal with skewness in data transformation.
   - Most number of risky patient are between the age of 51 and 63.
   - Most of the patients who are also smokers have less than 5 cigarettes per day.
