@@ -1,7 +1,8 @@
  ![image](https://github.com/sidpatondikar/Capstone-Cardiovascular-Risk-Prediction/assets/83869822/46d95566-7e76-454e-95d5-86ed83b87d53) 
  # Capstone-Cardiovascular-Risk-Prediction
 ----------------------------------------------------------------
- Project Completion Certificate : https://certificates.almabetter.com/en/verify/42254995213647
+## Live Interactive Web App
+https://testdeploy-zybkfknbrat4yrapnzn7pi.streamlit.app/
  
 ----------------------------------------------------------------
 
