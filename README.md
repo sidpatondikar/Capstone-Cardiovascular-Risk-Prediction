@@ -2,7 +2,7 @@
  # Capstone-Cardiovascular-Risk-Prediction
 ----------------------------------------------------------------
 ## Live Interactive Web App
-https://testdeploy-37swxgv6iexnpvnvpwye5t.streamlit.app/
+[https://testdeploy-37swxgv6iexnpvnvpwye5t.streamlit.app/](https://chdriskprediction.streamlit.app/)
 
 ----------------------------------------------------------------
 
