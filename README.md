@@ -2,8 +2,8 @@
  # Capstone-Cardiovascular-Risk-Prediction
 ----------------------------------------------------------------
 ## Live Interactive Web App
-https://testdeploy-zybkfknbrat4yrapnzn7pi.streamlit.app/
- 
+https://testdeploy-37swxgv6iexnpvnvpwye5t.streamlit.app/
+
 ----------------------------------------------------------------
 
 ## Project Summary:
@@ -94,19 +94,23 @@ The project aimed to predict the 10-year risk of future coronary heart disease (
   ![image](https://github.com/sidpatondikar/Capstone-Cardiovascular-Risk-Prediction/assets/83869822/d8054cf5-4583-4bfa-b143-6ea007d013b5)
 
 - Here are the result comparision of all 5 models:
- ![image](https://github.com/sidpatondikar/Capstone-Cardiovascular-Risk-Prediction/assets/83869822/80354f79-c940-4df6-8b2d-d69119952b1f)
 
-Hyperparmeter tuned Random Forest model gives the best recall score on test data, hence, this model is chosen as final predition model.
+![image](https://github.com/sidpatondikar/Capstone-Cardiovascular-Risk-Prediction/assets/83869822/6fd8911a-6403-4734-80a6-e758ade79e5d)
+
+
+Hyperparmeter tuned XGBoost model gives the best and realistic recall score on test data, hence, this model is chosen as final predition model.
 
 Confusion Matrix for final model:
 
-![image](https://github.com/sidpatondikar/Capstone-Cardiovascular-Risk-Prediction/assets/83869822/3bf0d986-46e5-45ce-9db2-2f2d62b0691c)
+![image](https://github.com/sidpatondikar/Capstone-Cardiovascular-Risk-Prediction/assets/83869822/68cb0bd7-6b7f-450a-b46b-2fe3b15f70a4)
+
 
 ### Feature Importance:
 
-![image](https://github.com/sidpatondikar/Capstone-Cardiovascular-Risk-Prediction/assets/83869822/85a95dbb-16ba-4b85-86d9-43df2711c62f)
+![image](https://github.com/sidpatondikar/Capstone-Cardiovascular-Risk-Prediction/assets/83869822/938fadb2-efa6-4f6f-9574-6262a663beca)
 
-Age came out to be the most important feature in our model followed by pulse pressure and heart rate. On the other hand, BPMeds and had_stroke were the least import features.
+
+Age came out to be the most important feature in our model followed by diabetes and heart rate. On the other hand, BMI and total_cholestrol were the least import features.
 
 ------------------------------------------------------------
 
@@ -120,7 +124,7 @@ Age came out to be the most important feature in our model followed by pulse pre
 
 - Initially simple models like Logistic Regression and SVM were used and later on more complex tree based and ensemble models were used.
 
-- Final model chosen was hyperparamter tuned random forest model, which gave a recall of 1 on test data. This means that out of 100 possible high risk patients, we were able to classify all 100 succesfully. This high accuracy is beneficial in saving lives in critical conditions.
+- Final model chosen was hyperparamter tuned xgboost model, which gave a recall of 0.98 on test data. This means that out of 100 possible high risk patients, we were able to classify all 98 succesfully. This high accuracy is beneficial in saving lives in critical conditions.
 
-- Age came out to be the most important feature in our model followed by pulse pressure and heart rate. On the other hand, BPMeds and had_stroke were the least import features in predicting CHD risk.
+- Age came out to be the most important feature in our model followed by diabetes and heart rate. On the other hand,  BMI and total_cholestrol were the least import features in predicting CHD risk.
 
